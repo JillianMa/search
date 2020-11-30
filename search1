@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Search Page</title>
+    </head>
+
+    <body>
+        <form action="https://www.google.com/search" method="get">
+            <label for="google">Search here if you like your data sold:</label>
+            <input id="google" name="q" type="text">
+            <input type="submit" value="Search">
+        </form>
+
+        <form action="https://www.duckduckgo.com/" method="get">
+            <label for="duck">Search here if you like your data kept to yourself:</label>
+            <input id="duck" name="q" type="text">
+            <input type="submit" value="Search">
+        </form>
+    </body>
+</html>
